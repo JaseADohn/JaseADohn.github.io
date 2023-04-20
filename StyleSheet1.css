@@ -1,0 +1,63 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: grey;
+}
+
+h1{
+    margin-bottom: 4rem;
+    font-size: 5em;
+    text-align: center;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.navbar-nav li {
+    margin-right: 1rem;
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+    color: #333;
+}
+
+    .navbar-nav .nav-link:hover {
+        color: #007bff;
+    }
+
+ p{
+     font-size: 2em;
+     text-align: center;
+ }
+
+ .navbar-light {
+     background-color: bisque;
+ }
+
+ .hover-effect{
+     transition: transform 0.3s ease;
+ }
+
+ .hover-effect:hover{
+     transform: scale(1.1);
+ }
+
+.fun-item {
+    font-size: 2rem;
+    transition: transform 0.3s ease;
+}
+
+    .fun-item:hover {
+        transform: scale(1.2);
+        color: #007bff;
+        animation: backwards;
+    }
